@@ -155,7 +155,6 @@ export const AuthContextProvider = ({ children }) => {
       if (error) {
         throw new Error(error.message);
       }
-      console.log(id);
 
       const student = data[0];
 
