@@ -17,6 +17,7 @@ export const AuthContextProvider = ({ children }) => {
   ];
 
   //use states
+  const [teacherId, setTeacherId] = useState(null);
   const [loading, setLoading] = useState(true);
   const [errorMsg, setErrorMsg] = useState(null);
   const [errMsg, setErrMsg] = useState("");
@@ -62,6 +63,7 @@ export const AuthContextProvider = ({ children }) => {
       (_event, session) => {
         setSession(session ?? null);
         setUser(session?.user ?? null);
+        setTeacherId(session?.user?.id);
       }
     );
 
@@ -112,12 +114,12 @@ export const AuthContextProvider = ({ children }) => {
   };
 
   //Fetch caseload
-  const fetchCaseload = async (session_email) => {
+  const fetchCaseload = async () => {
     try {
       const { data, error } = await supabase
         .from("swd")
         .select("*")
-        .eq("teacher_email", session_email);
+        .eq("teacher_id", teacherId);
 
       if (error) {
         throw new Error(error.message);
