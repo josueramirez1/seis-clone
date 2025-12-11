@@ -1,0 +1,273 @@
+[
+  {
+    "id": 1,
+    "name": "Alex Johnson",
+    "dob": "2010-05-14",
+    "student_id": "SE1001",
+    "grade": 5,
+    "eligibility_category": "Autism",
+    "IEP_goals": [
+      "Improve reading comprehension by one grade level",
+      "Participate in classroom group activities"
+    ],
+    "services": ["Speech Therapy", "Occupational Therapy"],
+    "case_manager": "Ms. Sandra Lee"
+  },
+  {
+    "id": 2,
+    "name": "Maria Gonzalez",
+    "dob": "2009-11-02",
+    "student_id": "SE1002",
+    "grade": 6,
+    "eligibility_category": "Specific Learning Disability",
+    "IEP_goals": [
+      "Increase math problem-solving skills",
+      "Improve handwriting legibility"
+    ],
+    "services": ["Resource Room Support", "Reading Intervention"],
+    "case_manager": "Mr. John Smith"
+  },
+  {
+    "id": 3,
+    "name": "Liam Brown",
+    "dob": "2011-03-22",
+    "student_id": "SE1003",
+    "grade": 4,
+    "eligibility_category": "Speech or Language Impairment",
+    "IEP_goals": [
+      "Articulate consonant sounds correctly",
+      "Expand vocabulary by 50 words"
+    ],
+    "services": ["Speech Therapy"],
+    "case_manager": "Ms. Rachel Adams"
+  },
+  {
+    "id": 4,
+    "name": "Sophia Patel",
+    "dob": "2010-08-30",
+    "student_id": "SE1004",
+    "grade": 5,
+    "eligibility_category": "Autism",
+    "IEP_goals": [
+      "Develop social interaction skills",
+      "Follow multi-step classroom instructions"
+    ],
+    "services": ["Behavioral Therapy", "Social Skills Training"],
+    "case_manager": "Mr. Kevin White"
+  },
+  {
+    "id": 5,
+    "name": "Ethan Nguyen",
+    "dob": "2008-12-10",
+    "student_id": "SE1005",
+    "grade": 7,
+    "eligibility_category": "Intellectual Disability",
+    "IEP_goals": [
+      "Improve basic math operations",
+      "Develop independent self-care skills"
+    ],
+    "services": ["Resource Room Support", "Life Skills Training"],
+    "case_manager": "Ms. Karen Lewis"
+  },
+  {
+    "id": 6,
+    "name": "Isabella Martinez",
+    "dob": "2009-07-17",
+    "student_id": "SE1006",
+    "grade": 6,
+    "eligibility_category": "Specific Learning Disability",
+    "IEP_goals": [
+      "Improve reading fluency",
+      "Develop critical thinking skills"
+    ],
+    "services": ["Reading Intervention", "Resource Room Support"],
+    "case_manager": "Mr. Daniel Hughes"
+  },
+  {
+    "id": 7,
+    "name": "Noah Smith",
+    "dob": "2011-01-05",
+    "student_id": "SE1007",
+    "grade": 4,
+    "eligibility_category": "Speech or Language Impairment",
+    "IEP_goals": [
+      "Pronounce multisyllabic words correctly",
+      "Expand expressive language skills"
+    ],
+    "services": ["Speech Therapy"],
+    "case_manager": "Ms. Emily Turner"
+  },
+  {
+    "id": 8,
+    "name": "Olivia Davis",
+    "dob": "2010-04-12",
+    "student_id": "SE1008",
+    "grade": 5,
+    "eligibility_category": "Autism",
+    "IEP_goals": [
+      "Improve peer interaction",
+      "Participate in group learning activities"
+    ],
+    "services": ["Social Skills Training", "Occupational Therapy"],
+    "case_manager": "Mr. Brian Foster"
+  },
+  {
+    "id": 9,
+    "name": "Aiden Wilson",
+    "dob": "2009-09-25",
+    "student_id": "SE1009",
+    "grade": 6,
+    "eligibility_category": "Specific Learning Disability",
+    "IEP_goals": [
+      "Increase comprehension of scientific texts",
+      "Develop essay writing skills"
+    ],
+    "services": ["Resource Room Support", "Reading Intervention"],
+    "case_manager": "Ms. Laura Kelly"
+  },
+  {
+    "id": 10,
+    "name": "Mia Robinson",
+    "dob": "2011-06-19",
+    "student_id": "SE1010",
+    "grade": 4,
+    "eligibility_category": "Speech or Language Impairment",
+    "IEP_goals": [
+      "Improve articulation of difficult sounds",
+      "Increase receptive language skills"
+    ],
+    "services": ["Speech Therapy"],
+    "case_manager": "Mr. James Thompson"
+  },
+  {
+    "id": 11,
+    "name": "Lucas Hernandez",
+    "dob": "2010-02-03",
+    "student_id": "SE1011",
+    "grade": 5,
+    "eligibility_category": "Autism",
+    "IEP_goals": [
+      "Develop daily living skills",
+      "Enhance classroom participation"
+    ],
+    "services": ["Behavioral Therapy", "Social Skills Training"],
+    "case_manager": "Ms. Sophia Grant"
+  },
+  {
+    "id": 12,
+    "name": "Emma Clark",
+    "dob": "2008-10-22",
+    "student_id": "SE1012",
+    "grade": 7,
+    "eligibility_category": "Intellectual Disability",
+    "IEP_goals": [
+      "Strengthen basic reading skills",
+      "Increase independent task completion"
+    ],
+    "services": ["Life Skills Training", "Resource Room Support"],
+    "case_manager": "Mr. Michael Brooks"
+  },
+  {
+    "id": 13,
+    "name": "Jackson Lewis",
+    "dob": "2009-03-16",
+    "student_id": "SE1013",
+    "grade": 6,
+    "eligibility_category": "Specific Learning Disability",
+    "IEP_goals": [
+      "Improve problem-solving in math",
+      "Enhance reading comprehension"
+    ],
+    "services": ["Resource Room Support", "Math Intervention"],
+    "case_manager": "Ms. Rachel Parker"
+  },
+  {
+    "id": 14,
+    "name": "Ava Young",
+    "dob": "2011-08-29",
+    "student_id": "SE1014",
+    "grade": 4,
+    "eligibility_category": "Speech or Language Impairment",
+    "IEP_goals": ["Enhance vocabulary", "Improve sentence structure"],
+    "services": ["Speech Therapy"],
+    "case_manager": "Mr. Steven Coleman"
+  },
+  {
+    "id": 15,
+    "name": "Benjamin Scott",
+    "dob": "2010-11-11",
+    "student_id": "SE1015",
+    "grade": 5,
+    "eligibility_category": "Autism",
+    "IEP_goals": [
+      "Increase social engagement",
+      "Develop organizational skills"
+    ],
+    "services": ["Occupational Therapy", "Behavioral Therapy"],
+    "case_manager": "Ms. Laura Simmons"
+  },
+  {
+    "id": 16,
+    "name": "Charlotte Adams",
+    "dob": "2009-05-08",
+    "student_id": "SE1016",
+    "grade": 6,
+    "eligibility_category": "Specific Learning Disability",
+    "IEP_goals": ["Improve reading comprehension", "Increase math fluency"],
+    "services": ["Reading Intervention", "Resource Room Support"],
+    "case_manager": "Mr. Kevin Bell"
+  },
+  {
+    "id": 17,
+    "name": "Henry Moore",
+    "dob": "2011-12-20",
+    "student_id": "SE1017",
+    "grade": 4,
+    "eligibility_category": "Speech or Language Impairment",
+    "IEP_goals": ["Enhance expressive language", "Improve articulation skills"],
+    "services": ["Speech Therapy"],
+    "case_manager": "Ms. Angela Hughes"
+  },
+  {
+    "id": 18,
+    "name": "Amelia King",
+    "dob": "2010-06-05",
+    "student_id": "SE1018",
+    "grade": 5,
+    "eligibility_category": "Autism",
+    "IEP_goals": [
+      "Participate in classroom activities",
+      "Develop peer communication skills"
+    ],
+    "services": ["Social Skills Training", "Occupational Therapy"],
+    "case_manager": "Mr. Brian Reed"
+  },
+  {
+    "id": 19,
+    "name": "William Wright",
+    "dob": "2009-01-30",
+    "student_id": "SE1019",
+    "grade": 6,
+    "eligibility_category": "Specific Learning Disability",
+    "IEP_goals": [
+      "Improve writing mechanics",
+      "Develop reading comprehension strategies"
+    ],
+    "services": ["Resource Room Support", "Writing Intervention"],
+    "case_manager": "Ms. Emily Harris"
+  },
+  {
+    "id": 20,
+    "name": "Harper Hall",
+    "dob": "2011-09-14",
+    "student_id": "SE1020",
+    "grade": 4,
+    "eligibility_category": "Speech or Language Impairment",
+    "IEP_goals": [
+      "Increase receptive language understanding",
+      "Improve pronunciation of complex words"
+    ],
+    "services": ["Speech Therapy"],
+    "case_manager": "Mr. Jonathan Reed"
+  }
+]
