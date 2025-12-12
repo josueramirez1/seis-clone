@@ -12,6 +12,9 @@ This project is an application that gives case managers the ability to look up t
 
 - [@josueramirez1](https://www.github.com/josueramirez1)
 
+# Live Demo
+https://earnest-griffin-0f9047.netlify.app/
+
 ## Demo Accounts
 sandra123@example.com
 eric@example.com
@@ -19,7 +22,6 @@ eric@example.com
 passwords: 123456seis
 
 ## Lessons Learned
-
 
 What did you learn while building this project?
 
