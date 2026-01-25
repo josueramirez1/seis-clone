@@ -16,6 +16,7 @@ import {
 } from "@heroicons/react/24/outline";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { useAuth } from "../contexts/AuthContext";
+import logo from "../assets/logo.png";
 
 const StudentDetails = () => {
   const { id } = useParams();
@@ -61,11 +62,7 @@ const StudentDetails = () => {
             <div className="flex h-16 items-center justify-between">
               <div className="flex items-center">
                 <div className="shrink-0">
-                  <img
-                    alt="Your Company"
-                    src="https://transportation.seis.org/Content/images/logo.svg"
-                    className="size-8"
-                  />
+                  <img alt="Your Company" src={logo} className="size-8" />
                 </div>
                 <div className="hidden md:block">
                   <div className="ml-10 flex items-baseline space-x-4">
@@ -78,7 +75,7 @@ const StudentDetails = () => {
                           item.current
                             ? "bg-gray-950/50 text-white"
                             : "text-gray-300 hover:bg-white/5 hover:text-white",
-                          "rounded-md px-3 py-2 text-sm font-medium"
+                          "rounded-md px-3 py-2 text-sm font-medium",
                         )}
                       >
                         {item.name}
@@ -133,7 +130,7 @@ const StudentDetails = () => {
                               {item.name}
                             </p>
                           </MenuItem>
-                        )
+                        ),
                       )}
                     </MenuItems>
                   </Menu>
@@ -168,7 +165,7 @@ const StudentDetails = () => {
                     item.current
                       ? "bg-gray-950/50 text-white"
                       : "text-gray-300 hover:bg-white/5 hover:text-white",
-                    "block rounded-md px-3 py-2 text-base font-medium"
+                    "block rounded-md px-3 py-2 text-base font-medium",
                   )}
                 >
                   {item.name}
@@ -221,7 +218,7 @@ const StudentDetails = () => {
                     >
                       {item.name}
                     </DisclosureButton>
-                  )
+                  ),
                 )}
               </div>
             </div>

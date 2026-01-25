@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Dialog, DialogPanel } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
+import logo from "../assets/logo.png";
 
 const navigation = [
   { name: "Home", href: "/" },
@@ -21,11 +22,7 @@ const Hero = () => {
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">SEIS</span>
-              <img
-                alt=""
-                src="../src/assets/logoipsum-225.png"
-                className="h-8 w-auto"
-              />
+              <img alt="" src={logo} className="h-8 w-auto" />
             </a>
           </div>
           <div className="flex lg:hidden">
@@ -65,11 +62,7 @@ const Hero = () => {
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
-                <img
-                  alt=""
-                  src="../src/assets/logoipsum-225.png"
-                  className="h-8 w-auto"
-                />
+                <img alt="" src={logo} className="h-8 w-auto" />
               </a>
               <button
                 type="button"
@@ -131,11 +124,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="text-center">
-            <img
-              alt=""
-              src="../src/assets/logoipsum-225.png"
-              className="inline-block w-auto size-20"
-            />
+            <img alt="" src={logo} className="inline-block w-auto size-20" />
             <p className="mt-8 text-lg font-medium text-pretty text-white sm:text-xl/8">
               The SEIS mission is to provide services that boost efficiency and
               maximize accuracy for special education record keeping

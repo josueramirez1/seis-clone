@@ -13,6 +13,7 @@ import clsx from "clsx";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../contexts/AuthContext";
+import logo from "../assets/logo.png";
 
 const navigation = [
   { name: "Home", href: "/" },
@@ -52,11 +53,7 @@ const SignIn = () => {
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">SEIS</span>
-              <img
-                alt=""
-                src="../src/assets/logoipsum-225.png"
-                className="h-8 w-auto"
-              />
+              <img alt="" src={logo} className="h-8 w-auto" />
             </a>
           </div>
           <div className="flex lg:hidden">
@@ -96,11 +93,7 @@ const SignIn = () => {
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
-                <img
-                  alt=""
-                  src="../src/assets/logoipsum-225.png"
-                  className="h-8 w-auto"
-                />
+                <img alt="" src={logo} className="h-8 w-auto" />
               </a>
               <button
                 type="button"
