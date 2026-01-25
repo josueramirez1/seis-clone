@@ -54,7 +54,7 @@ const SignIn = () => {
               <span className="sr-only">SEIS</span>
               <img
                 alt=""
-                src="https://transportation.seis.org/Content/images/logo.svg"
+                src="../src/assets/logoipsum-225.png"
                 className="h-8 w-auto"
               />
             </a>
@@ -92,13 +92,13 @@ const SignIn = () => {
           className="lg:hidden"
         >
           <div className="fixed inset-0 z-50" />
-          <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-[#393] p-6 sm:max-w-sm sm:ring-1 sm:ring-gray-100/10">
+          <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-gray-900 p-6 sm:max-w-sm sm:ring-1 sm:ring-gray-100/10">
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
                 <img
                   alt=""
-                  src="https://transportation.seis.org/Content/images/logo.svg"
+                  src="../src/assets/logoipsum-225.png"
                   className="h-8 w-auto"
                 />
               </a>
@@ -165,7 +165,7 @@ const SignIn = () => {
                 <Input
                   className={clsx(
                     "mt-3 block w-full rounded-lg border-none bg-white/5 px-3 py-1.5 text-sm/6 text-white",
-                    "focus:not-data-focus:outline-none data-focus:outline-2 data-focus:-outline-offset-2 data-focus:outline-white/25"
+                    "focus:not-data-focus:outline-none data-focus:outline-2 data-focus:-outline-offset-2 data-focus:outline-white/25",
                   )}
                   onChange={(e) => setEmail(e.target.value)}
                   value={email}
@@ -181,7 +181,7 @@ const SignIn = () => {
                 <Input
                   className={clsx(
                     "mt-3 block w-full rounded-lg border-none bg-white/5 px-3 py-1.5 text-sm/6 text-white",
-                    "focus:not-data-focus:outline-none data-focus:outline-2 data-focus:-outline-offset-2 data-focus:outline-white/25"
+                    "focus:not-data-focus:outline-none data-focus:outline-2 data-focus:-outline-offset-2 data-focus:outline-white/25",
                   )}
                   onChange={(e) => setPassword(e.target.value)}
                   value={password}

@@ -23,7 +23,7 @@ const Hero = () => {
               <span className="sr-only">SEIS</span>
               <img
                 alt=""
-                src="https://transportation.seis.org/Content/images/logo.svg"
+                src="../src/assets/logoipsum-225.png"
                 className="h-8 w-auto"
               />
             </a>
@@ -61,13 +61,13 @@ const Hero = () => {
           className="lg:hidden"
         >
           <div className="fixed inset-0 z-50" />
-          <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-[#393] p-6 sm:max-w-sm sm:ring-1 sm:ring-gray-100/10">
+          <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-gray-900 p-6 sm:max-w-sm sm:ring-1 sm:ring-gray-100/10">
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
                 <img
                   alt=""
-                  src="https://transportation.seis.org/Content/images/logo.svg"
+                  src="../src/assets/logoipsum-225.png"
                   className="h-8 w-auto"
                 />
               </a>
@@ -133,8 +133,8 @@ const Hero = () => {
           <div className="text-center">
             <img
               alt=""
-              src="https://transportation.seis.org/Content/images/logo.svg"
-              className="inline-block w-auto"
+              src="../src/assets/logoipsum-225.png"
+              className="inline-block w-auto size-20"
             />
             <p className="mt-8 text-lg font-medium text-pretty text-white sm:text-xl/8">
               The SEIS mission is to provide services that boost efficiency and
