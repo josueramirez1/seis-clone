@@ -26,24 +26,6 @@ export const AuthContextProvider = ({ children }) => {
   const [caseload, setCaseload] = useState([]);
   const [myStudent, setMyStudent] = useState([]);
 
-  //Signup
-  // const signUpNewUser = async (email, password) => {
-  //   try {
-  //     const { data, error } = await supabase.auth.signUp({
-  //       email,
-  //       password,
-  //     });
-  //     if (error) {
-  //       throw new Error(error.message);
-  //     }
-  //     console.log("sign up success", data);
-  //     return { success: true, data };
-  //   } catch (error) {
-  //     console.error("Something went wrong when signing up", error);
-  //     return { success: false, error: error.message };
-  //   }
-  // };
-
   useEffect(() => {
     //hydrates state from Supabase
     const startSession = async () => {
@@ -64,7 +46,7 @@ export const AuthContextProvider = ({ children }) => {
         setSession(session ?? null);
         setUser(session?.user ?? null);
         setTeacherId(session?.user?.id);
-      }
+      },
     );
 
     return () => subscription.subscription.unsubscribe();
@@ -115,6 +97,11 @@ export const AuthContextProvider = ({ children }) => {
 
   //Fetch caseload
   const fetchCaseload = async () => {
+    if (!teacherId) {
+      console.log("No teacher ID available yet.");
+      return;
+    }
+
     try {
       const { data, error } = await supabase
         .from("swd")
@@ -146,6 +133,11 @@ export const AuthContextProvider = ({ children }) => {
 
   //Fetch student
   const fetchStudent = async (id) => {
+    if (!id) {
+      console.log("Fetch skipped: ID is not a valid UUID yet:", id);
+      return { success: false, error: "Invalid ID" };
+    }
+
     try {
       const { data, error } = await supabase
         .from("swd")
